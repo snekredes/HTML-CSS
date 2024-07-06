@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Hover</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        div:hover{
+               color: red;
+        }
+        div>p {
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            background-color: blue;
+            color: aliceblue;
+            font-size: 2em;
+            width: 300px;
+
+        }
+
+    </style>
+</head>
+<body>
+       <h1>Exemplos de Hover</h1>
+       <p>Passe o mouse em cima do paragráfo</p>
+       <div>Passa aqui
+
+        <p>Texto Escondido</p>
+       </div>
+    <p>Fim do Exercicio</p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    /*Medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em,  ex, rem, vw, vh, %
+    16px geralmente é = 1em
+    recomendação para font-size 'em ou px'
+    */
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration:  underline;
+}
+h1{ /* pode criar um shorthand para font*/
+    
+    font: italic 900 3em 'Courier New';
+}
+ 

@@ -1,0 +1,43 @@
+@charset "UTF8";
+main > h1, #ph1, .nav01{ 
+    text-align: center;
+    margin: 0px;
+    padding: 15px; 
+    background-color: rgba(30, 153, 30, 0.699);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+}
+h2,p{
+      
+}
+#ph1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+.nav01 > div{
+    display:inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    color: white;  
+}
+
+#ph1{
+    text-align: center;
+
+}
+.main02, h2>p{
+    
+    margin: 0 0 0 300px ;
+    padding: 0px;
+  
+}
+ 
+ 

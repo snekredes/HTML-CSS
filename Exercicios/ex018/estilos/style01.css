@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=New+Rocker&display=swap');
+
+
+
+body{
+    font-family: 'New Rocker';
+    font-size: 22px;
+    color: rgb(115, 255, 134);
+    
+}
+
+h1{
+    font-family: 'Fredericka the Great', serif;
+    color: rgb(59, 159, 247);
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 3em;
+}
+h2{
+    font-family: 'New Rocker', serif;
+    color: rgb(247, 16, 16);
+    font-weight: 900;
+    font-size: 4em;
+    text-decoration: underline;
+}

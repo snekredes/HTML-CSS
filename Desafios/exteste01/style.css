@@ -1,0 +1,45 @@
+body{
+   background-color: bisque;
+
+
+}
+.img{
+     max-width: 180px;
+     height: 200px;
+     margin-bottom: 100px;
+     margin-inline: 30px;
+}
+
+h1{
+    font-weight:bold;
+    font-size: 40px;
+    display:inline-block;
+    padding: 0;
+    background-color: blue;
+    color: aliceblue;
+    
+    
+}
+h2{
+    font-weight:bold;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+
+.from{
+    font-weight:bold;
+    font-size: 40px;
+    margin-inline: 250px;
+   
+}
+p{
+    font-size: 20px;
+   
+}
+.i{
+    height: 15px;
+}
+.sovem{
+        font-size: 30px;
+}

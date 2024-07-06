@@ -1,0 +1,18 @@
+div {
+    display: inline-block ;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div#d1:hover {
+    background-color: blue;
+}
+div#d2:hover {
+    background-color: yellow;
+}
+div#d3:hover {
+    background-color: rgb(255, 0, 255);
+}
+ 

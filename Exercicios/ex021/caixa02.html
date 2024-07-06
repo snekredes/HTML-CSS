@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Tags</title>
+    <style>  
+
+        body{
+            background-color: rgba(111, 229, 245, 0.541);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+        header{
+            padding: 10px;
+            background-color: aliceblue;
+            margin: 10px;
+        }
+        h1{ /* shadow-box: inset = borda interna */
+            box-shadow: inset 5px 3px 7px 1px rgba(0, 0, 0, 0.541);
+
+        }
+        nav{
+            background-color:  rgba(157, 157, 211, 0.856);
+            padding: 10px;
+            box-shadow: 5px 3px 4px 1px rgba(0, 0, 0, 0.541);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: 900;
+            margin-right: 30px;   
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding:10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow:  4px 3px 4px rgba(0, 0, 0, 0.774);
+        }
+        article{
+            background-color: rgba(157, 157, 211, 0.568) ;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgba(95, 95, 131, 0.568) ;
+        }
+        footer{
+            background-color: rgb(38, 0, 255);
+            font-size: 20px;
+            color: white;
+            margin: 0px;
+            font-weight: 900;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 15px;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+        <article>
+            <h2>Assunto Sobre Econômia</h2>        
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam fugiat laudantium rem, rerum vel vitae commodi reiciendis asperiores esse odio corporis sapiente numquam sed. Temporibus voluptatibus eligendi sunt neque.</p>
+            <aside>Produzido pela a Globo</aside>
+        </article>
+        </section>
+        <section id="noticias">
+        <article>
+                <h2>Noticias do nosso Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates explicabo non cumque consequuntur dicta amet voluptate ex est obcaecati et suscipit, architecto unde rem rerum illum vel possimus alias?</p>
+                <aside>Escrito por Snekrede</aside>
+        </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Snekrede</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

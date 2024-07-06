@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@font-face{
+    font-family:'Blacklettersh';
+    src: url('../fontes/Blacklettersh.ttf') format('truetype') , url('../fontes/BLACEB__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Tipos de formart ()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+
+
+    
+body{
+    font-family:'Berkshire Swash';
+    font-size: 30px;
+    color: #C66300;
+     
+    
+}
+
+h1{
+    font-family: 'Blacklettersh';
+    font-size: 3em;
+    color: red;
+    
+}

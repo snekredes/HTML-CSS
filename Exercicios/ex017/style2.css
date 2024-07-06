@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+
+@font-face {
+    font-family: 'OldLondon' ;
+    src: url('fontes/OldLondon.ttf') format('truetype') , url('fontes/OldLondonAlternate.ttf') format('truetype');
+} 
+
+
+
+body{
+     font: normal 18px Arial, Verdana, Serif;   
+     text-align: left;
+}
+
+h1{
+    font-family: 'OldLondon';
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    text-align: right;
+    text-decoration: underline;
+    font-family: 'Inconsolata'; 
+    font-size: 3em;
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+    font-family: 'Tiny5';
+ } 
