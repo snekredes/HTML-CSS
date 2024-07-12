@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        th , tfoot{
+            background-color: gray;
+            color: white;
+        }
+        .numero{
+            text-align: right;
+        }
+     .pos{ 
+        width: 1px;
+        
+
+     }   
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        Anatomia para tabelas grandes
+
+        Table
+          Head
+            tr, th , td 
+          tbody
+            tr, th , td 
+          tfoot
+            tr, th , td   
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="pos">1º</td>
+                <td>São Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr> 
+                <td>2º</td>
+                <td>Minas Gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+            <tr> 
+                <td>3ª</td>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>4ª</td>
+                <td>Bahia</td>
+                <td class="numero">14 873 064</td>
+            </tr>
+            <tr>
+                <td>5ª</td>
+                <td>Paraná</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>Pernambuco</td>
+                <td class="numero">9 557 071</td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>Ceará</td>
+                <td class="numero">9 132 078</td>
+            </tr>
+            <tr>
+                <td>9º</td>
+                <td>Pará</td>
+                <td class="numero">8 062 865</td>
+            </tr>
+            <tr>
+                <td>10º</td>
+                <td>Santa Catarina</td>
+                <td class="numero">7 164 788</td>
+            </tr>
+            <tr>
+                <td>11º</td>
+                <td>Maranhão</td>
+                <td class="numero">7 075 181</td>
+            </tr>
+            <tr>
+                <td>12º</td>
+                <td>Goias</td>
+                <td class="numero">7 018 354</td>
+            </tr>
+            <tr>
+                <td>13º</td>
+                <td>Amazonas</td>
+                <td class="numero">4 144 597</td>
+            </tr>
+            <tr>
+                <td>14ª</td>
+                <td>Espirito Santo</td>
+                <td class="numero">4 018 650</td>
+            </tr>
+            <tr>
+                <td>15ª</td>
+                <td>Paraiba</td>
+                <td class="numero">4 018 127</td>
+            </tr>
+            <tr>
+                <td>16º</td>
+                <td>Rio Grande do Norte</td>
+                <td class="numero">3 506 853</td>
+            </tr>
+            <tr>
+                <td>18ª</td>
+                <td>Mato Grosso</td>
+                <td class="numero">3 484 466</td>
+            </tr>
+            <tr>
+                <td>19ª</td>
+                <td>Alagoas</td>
+                <td class="numero">3 337 357</td>
+            </tr>
+            <tr>
+                <td>20ª</td>
+                <td>Piaui</td>
+                <td class="numero">3 273 227</td>
+            </tr>
+            <tr>
+                <td>21ª</td>
+                <td>Destrito Federal</td>
+                <td class="numero">3 015 268</td>
+            </tr>
+            <tr>
+                <td>22ª</td>
+                <td>Mato grosso do Sul</td>
+                <td class="numero">2 778 986</td>
+            </tr>
+            <tr>
+                <td>23ª</td>
+                <td>Sergipe</td>
+                <td class="numero">2 298 696</td>
+            </tr>
+            <tr>
+                <td>24ª</td>
+                <td>Rodonia</td>
+                <td class="numero">1 777 225</td>
+
+                <tr>
+                    <td>25ª</td>
+                    <td>Tocantis</td>
+                    <td class="numero">1 572 866</td>
+                </tr>
+                <tr>
+                    <td>26ª</td>
+                    <td>Acre</td>
+                    <td class="numero">881 935</td>
+                </tr>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th><strong>Total Habitantes</strong></th>
+                <td class="numero">210 147 125</td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+
+</body>
+</html>
