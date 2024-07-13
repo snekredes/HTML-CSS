@@ -22,9 +22,18 @@
             border: 2px solid black;
             padding: 10px;
         }
+
         th , tfoot{
             background-color: gray;
             color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+             
+        }
+        tbody > tr:nth-child(even){
+            background-color: rgb(253, 251, 251);
+            font-weight: bolder;
         }
         .numero{
             text-align: right;
@@ -204,7 +213,7 @@
             <tr> 
                 <th scope="row" class="hb"><strong>Total Habitantes</strong></th>
                 <td class="habitantes">210 147 125</td>
-                <td class="habitantes"> </td>
+                
             </tr>
         </tfoot>
 
