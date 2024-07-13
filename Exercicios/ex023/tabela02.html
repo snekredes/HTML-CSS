@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -24,8 +25,13 @@
         }
 
         th , tfoot{
-            background-color: gray;
+            background-color: rgb(92, 91, 91);
             color: white;
+        }
+        thead > tr > th{
+                position: sticky;
+                top:0;
+                
         }
         tbody > tr:nth-child(odd){
             background-color: lightgray;
@@ -62,7 +68,7 @@
         Anatomia para tabelas grandes
         CAPTION
         Table
-          Head
+          Thead
             th, tr, td 
           tbody
             th, tr, td 
