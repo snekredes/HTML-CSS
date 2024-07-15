@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table{
+            width: 700px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.8em;
+            font-weight: 900;
+            padding: 20px;
+            text-decoration: underline;
+            font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        thead {
+            background-color: rgba(58, 44, 250, 0.829);
+         
+        }
+        thead:hover{
+            background-color: bisque;
+        }
+        .cabeça{
+            font-weight: 900;
+            font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.3em;
+        }
+
+        th, td{
+            border: 3px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+     
+        tfoot{
+             
+            font-size: 1.1em;
+            font-weight: 900;
+            font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgba(58, 44, 250, 0.829);
+            
+            
+        }
+        tfoot:hover{
+            background-color: bisque;
+
+        }
+        .pessoa{
+            background-color: lightgray;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+        <tr>
+            <td class="cabeça">Grupos</td>
+            <td class="cabeça">Nomes</td>
+            <td colspan="3" class="cabeça">Filmes</td>
+        </tr>
+     </thead>
+    <tbody>
+        <tr class="pessoa">
+            <th rowspan="3" class="cabeça">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr class="pessoa">
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr class="pessoa">
+            <td>Cláudia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+        <tr class="pessoa">
+            <th rowspan="3" class="cabeça">Homens</th>
+            <td>Buno mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr class="pessoa">
+            <td>Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr class="pessoa">
+            <td>Fabiano Mota</td>
+            <td>Star War 5</td>
+            <td>Táxi Driver</td>
+            <td>Toy Story</td>
+        </tr>
+        
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">Tabela feito por Snekrede</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
