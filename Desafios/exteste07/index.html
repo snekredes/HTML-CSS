@@ -11,7 +11,7 @@
         }
         
         table{
-            width: 600px;
+            width: 700px;
             border-collapse: collapse;
            
         }
@@ -59,12 +59,16 @@
     <caption>Tabela Anual</caption>
     <thead>
         <tr>
-          <th scope="col" class="gg">Área</th>
-          <th scope="col" class="gg">Disciplinas</th>
-          <th colspan="2">Notas <br> Nota 1 Nota 2 </th> 
-          <th scope="col" colspan="2">Média</th>
+          <th scope="col" class="gg" rowspan="2">Área</th>
+          <th scope="col" class="gg" rowspan="2">Disciplinas</th>
+          <th colspan="2">Notas </th> 
+          <th scope="col" rowspan="3">Média</th>
         </tr>
-        
+        <tr>
+            <th>nota1</th>
+            <th>nota2</th>
+            
+        </tr>
     </thead>
     <tbody>
         <tr>
