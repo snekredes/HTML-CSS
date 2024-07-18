@@ -49,14 +49,25 @@
             
             
         }
-        .cabeçalho{
-            background-color: rgb(167, 162, 162);
-            font-size: 1.2em;
+        
+
+          tbody > tr:nth-child(2n){
+            background-color: rgba(211, 211, 211, 0.938);
+             
         }
+     
+        .cabeçalho{
+            background-color: rgb(155, 155, 155);
+            font-size: 1.2em;
+            position: sticky;
+        }
+      
+      
         tr,td{
             border: 3px solid black;
             padding: 10px;
             font-weight: 900;
+            top:-2px
         }
         a{
             text-decoration: none;
@@ -74,184 +85,218 @@
             padding: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
             border-radius: 10px 10px 10px 10px;
+      
 
         }
- 
+        main > p{
+            background-color: white;
+            text-align: justify;
+            color: black;
+            font-size: 1.3em;
+            padding: 0;
+            margin: 0;
+        }
+        footer{
+            text-align: center;
+            background-color: green;
+            color: white;
+            font-size: 1.5em;
+            padding: 25px;
+             
+        }
+        .container{
+                overflow-x: auto;
+        }
     </style>
 </head>
 <body>
     <h1>Estados e capitais do Brasil</h1>
     <p>Lista das siglas, bandeiras, regiões, estados e capitais do Brasil!
     </p>
+ 
      <main>
-       <table>
-         <caption>Listas dos Estados</caption>
-            <thead>
-                <tr class="cabeçalho">
-                    <td>Bandeira</td>
-                    <td>Estado</td>
-                    <td>Sigla</td>
-                    <td>Capital</td>
-                    <td>Região</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/estado/acre/" target="_blank">Acre</a></td>
-                    <td>AC</td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/capital/rio-branco/" target="_blank">Rio Branco</a></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/norte/">Norte</a></td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/al.png" alt="ac" width="30" height="20"></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/estado/alagoas/" target="_blank">Alagoas</a></td>
-                    <td>AL</td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/capital/maceio/" target="_blank">Maceió</a></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/nordeste/" target="_blank">Nordeste</a></td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ap.png" alt="ac" width="30" height="20"></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/estado/amapa/" target="_blank">Amapá</a></td>
-                    <td>AP</td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/capital/macapa/" target="_blank">Macapá</a></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/norte/" target="_blank">Norte</a></td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/am.png" alt="ac" width="30" height="20"></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/estado/amazonas/" target="_blank">Amazonas</a></td>
-                    <td>AM</td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/capital/manaus/" target="_blank">Manaus</a></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/norte/" target="_blank">Norte</a></td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ba.png" alt="ac" width="30" height="20"></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/estado/bahia/" target="_blank">Bahia</a></td>
-                    <td>BA</td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/capital/salvador/" target="_blank">Salvador</a></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/nordeste/" target="_blank">Nordeste</a></td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ce.png" alt="ac" width="30" height="20"></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/estado/ceara/" target="_blank">Ceará</a></td>
-                    <td>CE</td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/capital/fortaleza/" target="_blank">Fortaleza</a></td>
-                    <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/nordeste/" target="_blank">Nordeste</a></td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                    <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                <tr>
-                     <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                    <td>Acre</td>
-                    <td>AC</td>
-                    <td>Rio Branco</td>
-                    <td>Norte</td>
-                </tr>
-                    <tr>
+        <table>
+            <caption>Listas dos Estados</caption>
+               <thead>
+                   <tr class="cabeçalho">
+                       <td>Bandeira</td>
+                       <td>Estado</td>
+                       <td>Sigla</td>
+                       <td>Capital</td>
+                       <td>Região</td>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/estado/acre/" target="_blank">Acre</a></td>
+                       <td>AC</td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/capital/rio-branco/" target="_blank">Rio Branco</a></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/norte/">Norte</a></td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/al.png" alt="ac" width="30" height="20"></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/estado/alagoas/" target="_blank">Alagoas</a></td>
+                       <td>AL</td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/capital/maceio/" target="_blank">Maceió</a></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/nordeste/" target="_blank">Nordeste</a></td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ap.png" alt="ac" width="30" height="20"></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/estado/amapa/" target="_blank">Amapá</a></td>
+                       <td>AP</td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/capital/macapa/" target="_blank">Macapá</a></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/norte/" target="_blank">Norte</a></td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/am.png" alt="ac" width="30" height="20"></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/estado/amazonas/" target="_blank">Amazonas</a></td>
+                       <td>AM</td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/capital/manaus/" target="_blank">Manaus</a></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/norte/" target="_blank">Norte</a></td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ba.png" alt="ac" width="30" height="20"></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/estado/bahia/" target="_blank">Bahia</a></td>
+                       <td>BA</td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/capital/salvador/" target="_blank">Salvador</a></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/nordeste/" target="_blank">Nordeste</a></td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ce.png" alt="ac" width="30" height="20"></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/estado/ceara/" target="_blank">Ceará</a></td>
+                       <td>CE</td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/capital/fortaleza/" target="_blank">Fortaleza</a></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/nordeste/" target="_blank">Nordeste</a></td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/df.png" alt="ac" width="30" height="20"></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/estado/distrito-federal/" target="_blank">Distrito Federal</a></td>
+                       <td>DF</td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/capital/brasilia/" target="_blank">Brasilia</a></td>
+                       <td><a href="https://www.estadosecapitaisdobrasil.com/regiao/centro-oeste/" target="_blank">Centro-Oeste</a></td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
+                       <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                   <tr>
                         <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
-                        <td>Acre</td>
-                        <td>AC</td>
-                        <td>Rio Branco</td>
-                        <td>Norte</td>
-                    </tr>    
-            </tbody>
-       </table>
+                       <td>Acre</td>
+                       <td>AC</td>
+                       <td>Rio Branco</td>
+                       <td>Norte</td>
+                   </tr>
+                       <tr>
+                           <td><img src="imagem/ac.png" alt="ac" width="30" height="20"></td>
+                           <td>Acre</td>
+                           <td>AC</td>
+                           <td>Rio Branco</td>
+                           <td>Norte</td>
+                       </tr>  
+                         
+               </tbody>
+         </table>
+       
     </main>
+  <main>
+    <p>Saiba mais sobre os estados brasileiros
+        Acima disponibilizamos uma tabela com informações sobre os estados e capitais do Brasil, a sigla de cada estado, sua capital, a qual região pertence e uma miniatura de sua bandeira. Para mais informações sobre basta clicar sobre os links da tabela.
+        
+        Quantos estados tem o Brasil? O Brasil é uma federação composta por 26 estados, um Distrito Federal (que contém a capital do país: Brasília) e municípios. Os estados têm administrações autônomas, coletam seus próprios impostos e recebem uma parte dos impostos cobrados pelo governo Federal. Eles têm um governador e um corpo legislativo eleitos, diretamente, pela população.
+        
+        Os estados e o Distrito Federal podem ser agrupados em regiões: Norte, Nordeste, Centro-Oeste, Sudeste e Sul. As regiões brasileiras são meramente geográficas e não divisões políticas ou administrativas. Embora definidas em lei, as regiões brasileiras são úteis, principalmente, para fins estatísticos, e também para definir a aplicação de recursos federais em projetos de desenvolvimento.</p>
+    
+</main>
+<footer>
+     <div>estadosecapitaisdobrasil.com © 2024 </div>
+</footer>
 </body>
 </html>
