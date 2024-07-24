@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body> 
+   <h1>Preencha o Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome" required minlength="5" maxlength="20" size="25">             
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite o seu Sobrenome" minlength="5" maxlength="20" siz>
+        </p>
+        <p>
+            <label for="inascimento">Data de Nascimento:</label>
+            <input type="date" name="nascimento" id="inascimento" required >
+        </p>
+        <label for="iemail">E-mail:</label>
+        <input type="text" name="email" id="iemail" required placeholder="Digite seu E-mail" minlength="5" maxlength="20" size="24" >
+        <p>
+            <p>
+                <label for="isexo">Sexo:</label>
+                
+                <input type="radio" name="sexo" id="isexo" required>
+                Masculino 
+                <input type="radio" name="sexo" id="isexo" required>
+                Feminino 
+            </p>
+            <p>
+            <label for="iidade">Idade:</label>
+            <input type="number" name="idade" id="iidade" placeholder="1 a 120" required min="1" max="120">
+            </p>
+            <p>
+                <label for="ialtura">Altura:</label>
+                <input type="number" name="altura" id="ialtura" required min="1" max="2.50" step="0.01" placeholder="Digite sua Altura">
+            </p>
+            <p>
+                <label for="iprofissao">Profissão:</label>
+                <input type="text" name="profissao" id="iprofissao" required placeholder="Digite sua Profissão" minlength="5" maxlength="20"  size="23">
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
