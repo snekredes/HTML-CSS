@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+        }
+        h1{
+            font-size: 2em;
+            font-weight: 900;
+        }
+    </style>
 </head>
 <body> 
    <h1>Preencha o Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome" required minlength="5" maxlength="20" size="25">             
+            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome" required minlength="5" maxlength="20" size="60">             
         </p>
         <p>
             <label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite o seu Sobrenome" minlength="5" maxlength="20" siz>
+            <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite o seu Sobrenome" minlength="5" maxlength="20" size="52">
         </p>
         <p>
             <label for="inascimento">Data de Nascimento:</label>
             <input type="date" name="nascimento" id="inascimento" required >
         </p>
         <label for="iemail">E-mail:</label>
-        <input type="text" name="email" id="iemail" required placeholder="Digite seu E-mail" minlength="5" maxlength="20" size="24" >
+        <input type="text" name="email" id="iemail" required placeholder="Digite seu E-mail" minlength="5" maxlength="20" size="59" >
         <p>
             <p>
                 <label for="isexo">Sexo:</label>
@@ -41,7 +51,7 @@
             </p>
             <p>
                 <label for="iprofissao">Profissão:</label>
-                <input type="text" name="profissao" id="iprofissao" required placeholder="Digite sua Profissão" minlength="5" maxlength="20"  size="23">
+                <input type="text" name="profissao" id="iprofissao" required placeholder="Digite sua Profissão" minlength="5" maxlength="20"  size="55">
             </p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
