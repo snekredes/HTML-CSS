@@ -14,16 +14,29 @@ header{
 }
 header > h1{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-weight: 900;
+
 }
 menu ul{
     list-style-type: none;
     background-color: gray;
+    text-align: center;
 }
 menu li{
-    background-color: rgb(83, 83, 83);
+    font-size: 1.3em;
     color: white;
     display: inline-block;
     padding: 10px;
+    
+}
+
+menu li:hover{
+    background-color: rgb(189, 188, 188);
+}
+h2{
+    margin: 20px;
 }
 article{
     width: 600px;
