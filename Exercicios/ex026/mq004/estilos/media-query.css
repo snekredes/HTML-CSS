@@ -22,7 +22,13 @@ Grandes telas: acima de 1200px
     img#print{display: block;}
 
     main{
+        width: 90%;
         border: 5px solid black;
+    }
+
+    main::after {
+        content: 'Esse site foi feito pelo site https://github.com/snekredes' ;
+        text-decoration: overline;
     }
     main h1{
         text-shadow: none;
@@ -37,6 +43,11 @@ Grandes telas: acima de 1200px
         background-image: url(../imagem/back-phone.jpg);
     }
     img#phone{display: block;}
+
+    main{
+        width: 400px;
+    }
+
 }
 
  
@@ -47,6 +58,10 @@ Grandes telas: acima de 1200px
    
     img#tablet{display:block;}
 
+    main{
+        width: 650px;
+    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
@@ -54,6 +69,11 @@ Grandes telas: acima de 1200px
         background-image: url(../imagem/back-pc.jpg);
     }
     img#pc{display: block;}
+
+    main{
+        width: 650px;
+    }
+
     
 }
 
@@ -62,6 +82,10 @@ Grandes telas: acima de 1200px
         background-image:  url(../imagem/back-tv.jpg);
     }
     img#tv{display: block;}
+
+    main{
+        width: 900px;
+    }
     
     
 }
