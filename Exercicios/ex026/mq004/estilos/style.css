@@ -22,7 +22,7 @@ body{
 }
 
 main{
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: rgba(255, 255, 255, 0.185);
     width: 90%;
     margin: auto;
     margin-top: 20px;
@@ -30,18 +30,20 @@ main{
     padding: 10px;
 
 }
+
 h1{
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.575);
 }
+
 img{
     display: block;
     margin: auto;
 }
 
-img#phone{display: block ;}
+img#phone{display: none ;}
 img#tablet{display:none;}
 img#print{display:none;}
 img#pc{display:none;}
