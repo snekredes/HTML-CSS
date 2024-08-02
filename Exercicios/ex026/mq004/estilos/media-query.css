@@ -25,7 +25,7 @@ Grandes telas: acima de 1200px
     }
    
     img#tablet{display:block;}
-    img#phone{display: none;}
+    
  
     
 }
@@ -34,12 +34,12 @@ Grandes telas: acima de 1200px
         background-image: url(../imagem/back-pc.jpg);
     }
     img#pc{display: block;}
-    img#phone{display: none;}
+    
 }
 @media screen and (min-width: 1200px) { /* Grandes Telas*/
     body{
         background-image:  url(../imagem/back-tv.jpg);
     }
     img#tv{display: block;}
-    img#phone{display: none;}
+    
 }
