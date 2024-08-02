@@ -10,14 +10,35 @@ Grandes telas: acima de 1200px
 */
 
 @media print {   /* Impressora*/
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
     
+    body{
+        background-image: url(../imagem/back-print.jpg);
+       
+      
+    }
+    img#print{display: block;}
+
+    main{
+        border: 5px solid black;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
 }
+
+
 @media screen and (min-width:300px) and (max-width: 768px) { /*phone*/
     body{
         background-image: url(../imagem/back-phone.jpg);
     }
     img#phone{display: block;}
 }
+
  
 @media screen and (min-width: 768px) and (max-width: 992px) { /*Tablet*/
     body{
@@ -25,10 +46,9 @@ Grandes telas: acima de 1200px
     }
    
     img#tablet{display:block;}
-    
- 
-    
+
 }
+
 @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
     body{
         background-image: url(../imagem/back-pc.jpg);
@@ -36,10 +56,12 @@ Grandes telas: acima de 1200px
     img#pc{display: block;}
     
 }
+
 @media screen and (min-width: 1200px) { /* Grandes Telas*/
     body{
         background-image:  url(../imagem/back-tv.jpg);
     }
     img#tv{display: block;}
+    
     
 }
