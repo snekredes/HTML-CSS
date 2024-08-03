@@ -1,6 +1,74 @@
 @charset "UTF-8";
 
+/* google icons para buscar icones */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 body, html{
     background-color: lightgray;
+
+}
+
+header{
+    background-color: rgb(168, 167, 167);
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            background-color: rgb(78, 78, 78);
+            color: white;
+            text-align: center;
+            border: 3px solid gray;
+}
+menu > ul > li > a:hover{
+    background-color: gray;
+}
+#imenu{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+#imenu:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+article > h2{
+        padding-bottom: 20px;
+}
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 
 }
